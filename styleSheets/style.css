@@ -1,0 +1,57 @@
+#currentPage{
+  color:white;
+}
+
+#textCenter{
+  text-align:center;
+}
+
+.formPage{
+  width: 30%;
+  float: left;
+}
+
+.formSection{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.firstName{
+  
+}
+
+.surname{
+  
+}
+
+.email{
+  
+}
+
+.dateOfVisit{
+  
+}
+
+.experience{
+  
+}
+
+.submit{
+  display:block;
+  margin: auto;
+}
+
+.paraBody{
+  width:50%;
+}
+
+.image{
+  width: 50%;
+}
+
+.parallel{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
