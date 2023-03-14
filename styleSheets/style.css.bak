@@ -1,62 +1,68 @@
 #currentPage{
-  color:white;
+	color:white;
 }
 
 #textCenter{
-  text-align:center;
+	text-align:center;
 }
 
 .formPage{
-  width: 30%;
-  float: left;
+	margin-top: 20px;
+	margin-right:10%;
+	width: 30%;
 }
 
 .formSection{
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
 }
 
 .firstName{
-  
+	
 }
 
 .surname{
-  
+	
 }
 
 .email{
-  
+	
 }
 
 .dateOfVisit{
-  
+	
 }
 
 .experience{
-  
+	
 }
 
 .submit{
-  display:block;
-  margin: auto;
+	display:block;
+	margin: auto;
 }
 
 .paraBody{
-  width:50%;
+	width:50%;
 }
 
 .image{
-  width: 50%;
+	padding-bottom:10px;
+	width: 50%;
 }
 
 .parallel{
-	border: 2px solid black;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
 }
 
 .factBullets{
-	width: 35%;
+	margin-left:10%;
+	width: 30%;
+}
+	
+border{
+	box-sizing: border-box;
 }
