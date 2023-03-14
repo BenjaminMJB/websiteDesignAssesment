@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="script.js"></script>
+  <link href="styleSheets/style.css" rel="stylesheet" type="text/css">
+  <link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
+  <title>Seven Wonders of the World</title>
+</head>
+
+<body>
+  <div id="mySideBar" class="sideBar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a id="currentPage" href="index.html">BackGround to the Project</a>
+    <a href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
+    <a href="greatWallOfChina.html">Great Wall of China</a>
+    <a href="petra.html">Petra</a>
+    <a href="theColosseum.html">The Colosseum</a>
+    <a href="chichenItza.html">Chichén Itzá</a>
+    <a href="machuPicchu.html">Machu Picchu</a>
+    <a href="tajMahal.html">Taj Mahal</a>
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>  
+    <h1 id="textCenter">Seven Wonders of the World</h1>
+    <p>Place Holder</p>
+  </div>
+</body>
+
+</html>
