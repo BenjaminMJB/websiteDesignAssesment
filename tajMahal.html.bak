@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="script.js"></script>
+  <link href="styleSheets/style.css" rel="stylesheet" type="text/css">
+  <link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
+  <title>Taj Mahal</title>
+</head>
+
+<body>
+  <div id="mySideBar" class="sideBar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">BackGround to the Project</a>
+    <a href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
+    <a href="greatWallOfChina.html">Great Wall of China</a>
+    <a href="petra.html">Petra</a>
+    <a href="theColosseum.html">The Colosseum</a>
+    <a href="chichenItza.html">Chichén Itzá</a>
+    <a href="machuPicchu.html">Machu Picchu</a>
+    <a id="currentPage" href="tajMahal.html">Taj Mahal</a>
+  </div>
+
+  <div id="main">
+    <button class="openbtn" onclick="openNav()">☰</button>  
+    <h1 id="textCenter">Taj Mahal</h1>
+    <div class="parallel"
+      <p class="paraBody">Place Holder</p>
+      <img class="image" src="images/tajMahal.jpg" alt="A photo of The Taj Mahal">
+    </div>
+    
+    <ul>
+      <li>Fact A</li>
+      <li>Fact B</li>
+      <li>Fact C</li>
+    </ul>
+    
+    <form name="form" autocomplete="on">
+      <div class="formPage">
+        <div class="formSection">
+          <label>First Name:</label>
+          <input type="text" name="firstName" class="firstName" required="required">
+        </div><!--Closing div formSection tag-->
+        <div class="formSection">
+          <label>Surname:</label>
+          <input type="text" name="surname" class="surname" required="required">
+        </div><!--Closing div formSection tag-->
+        <div class="formSection">
+          <label>Email:</label>
+          <input type="email" name="email" class="email" required="required">
+        </div><!--Closing div formSection tag-->
+        <div class="formSection">
+          <label>Date of Visit:</label>
+          <input type="date" name="dateOfVisit" class="dateOfVisit" required="required">
+        </div><!--Closing div formSection tag-->
+        <div class="formSection">
+          <label>Your Experience</label>
+          <input type="text" name="experience" class="experience" required="required">
+        </div><!--Closing div formSection tag-->
+        <div class="formSection">
+          <input type="submit" name="submit" class="submit">
+        </div><!--Closing div formSection tag-->
+      </div><!--Closing div formPage tag-->
+  </div>
+</body>
+
+</html>
