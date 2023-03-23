@@ -11,16 +11,23 @@ p{
 	padding: 10px;
 	background-color:#bee6dc;
 }
+	
 #currentPage{
 	color:white;
 }
 
 
-.textCenter{
-	text-align:center;
+.heading{
+	clear: both;
+	width:auto;
+	padding:10px 10px;
+	background-color:#bee6dc;
+	text-align: center;
 }
 
 .formPage{
+	padding: 20px 10px 10px 10px;
+	background-color:#bee6dc;
 	margin-top: 20px;
 	margin-right:10%;
 	width: 30%;
@@ -62,7 +69,7 @@ p{
 }
 
 .image{
-	padding-top: 10px;
+	padding-top: 15px;
 	padding-bottom: 10px;
 	width: 49%;
 }
@@ -74,6 +81,8 @@ p{
 }
 
 .factBullets{
+	padding: 0px 10px 10px 10px;
+	background-color:#bee6dc;
 	margin-left:10%;
 	width: 30%;
 }
