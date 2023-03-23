@@ -1,8 +1,22 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-color:#16b88f;
+}
+
+p{
+	padding: 10px;
+	background-color:#bee6dc;
+}
 #currentPage{
 	color:white;
 }
 
-#textCenter{
+
+.textCenter{
 	text-align:center;
 }
 
@@ -48,7 +62,8 @@
 }
 
 .image{
-	padding-bottom:10px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 	width: 49%;
 }
 

@@ -2,66 +2,94 @@
 <html>
 
 <head>
-  <script src="script.js"></script>
-  <link href="styleSheets/style.css" rel="stylesheet" type="text/css">
-  <link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
-  <title>Great Wall of China</title>
+	<script src="script.js"></script>
+	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
+	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
+	<title>Great Wall of China</title>
 </head>
 
 <body>
-  <div id="mySideBar" class="sideBar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="index.html">BackGround to the Project</a>
-    <a href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
-    <a id="currentPage" href="greatWallOfChina.html">Great Wall of China</a>
-    <a href="petra.html">Petra</a>
-    <a href="theColosseum.html">The Colosseum</a>
-    <a href="chichenItza.html">Chichén Itzá</a>
-    <a href="machuPicchu.html">Machu Picchu</a>
-    <a href="tajMahal.html">Taj Mahal</a>
-  </div>
+	<div id="mySideBar" class="sideBar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		<a href="index.html">BackGround to the Project</a>
+		<a href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
+		<a id="currentPage" href="greatWallOfChina.html">Great Wall of China</a>
+		<a href="petra.html">Petra</a>
+		<a href="theColosseum.html">The Colosseum</a>
+		<a href="chichenItza.html">Chichén Itzá</a>
+		<a href="machuPicchu.html">Machu Picchu</a>
+		<a href="tajMahal.html">Taj Mahal</a>
+	</div>
 
-  <div id="main">
-    <button class="openbtn" onclick="openNav()">☰</button>  
-    <h1 id="textCenter">Great Wall of China</h1>
-    <div class="parallel"
-      <p class="paraBody">Place Holder</p>
-      <img class="image" src="images/greatWallOfChina.jpg" alt="A photo of The Great Wall of China">
-    </div>
-    
-    <ul>
-      <li>Fact A</li>
-      <li>Fact B</li>
-      <li>Fact C</li>
-    </ul>
-    
-    <form name="form" autocomplete="on">
-      <div class="formPage">
-        <div class="formSection">
-          <label>First Name:</label>
-          <input type="text" name="firstName" class="firstName" required="required">
-        </div><!--Closing div formSection tag-->
-        <div class="formSection">
-          <label>Surname:</label>
-          <input type="text" name="surname" class="surname" required="required">
-        </div><!--Closing div formSection tag-->
-        <div class="formSection">
-          <label>Email:</label>
-          <input type="email" name="email" class="email" required="required">
-        </div><!--Closing div formSection tag-->
-        <div class="formSection">
-          <label>Date of Visit:</label>
-          <input type="date" name="dateOfVisit" class="dateOfVisit" required="required">
-        </div><!--Closing div formSection tag-->
-        <div class="formSection">
-          <label>Your Experience</label>
-          <input type="text" name="experience" class="experience" required="required">
-        </div><!--Closing div formSection tag-->
-        <div class="formSection">
-          <input type="submit" name="submit" class="submit">
-        </div><!--Closing div formSection tag-->
-      </div><!--Closing div formPage tag-->
-  </div>
+	<div id="main">
+		<button class="openbtn" onclick="openNav()">☰</button>  
+		<h1 class="textCenter">Great Wall of China</h1>
+		<div class="parallel">
+			<p class="paraBody">
+				The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally "ten thousand li wall") is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with selective stretches later joined by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains. Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).
+				
+				<br><br>Apart from defense, other purposes of the Great Wall have included border controls, allowing the imposition of duties on goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and emigration. Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of watchtowers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact that the path of the Great Wall also served as a transportation corridor.
+				
+				<br><br>The frontier walls built by different dynasties have multiple courses. Collectively, they stretch from Liaodong in the east to Lop Lake in the west, from the present-day Sino–Russian border in the north to Tao River (Taohe) in the south; along an arc that roughly delineates the edge of the Mongolian steppe; spanning 21,196.18 km (13,170.70 mi) in total. Today, the defensive system of the Great Wall is generally recognized as one of the most impressive architectural feats in history.
+				
+				<br><br>The collection of fortifications known as the Great Wall of China has historically had a number of different names in both Chinese and English.
+				
+				<br><br>In Chinese histories, the term "Long Wall(s)" (t 長城, s 长城, Chángchéng) appears in Sima Qian's Records of the Grand Historian, where it referred both to the separate great walls built between and north of the Warring States and to the more unified construction of the First Emperor. The Chinese character 城, meaning city or fortress, is a phono-semantic compound of the "earth" radical 土 and phonetic 成, whose Old Chinese pronunciation has been reconstructed as *deŋ. It originally referred to the rampart which surrounded traditional Chinese cities and was used by extension for these walls around their respective states; today, however, it is much more often the Chinese word for "city".
+				
+				<br><br>The longer Chinese name "Ten-Thousand Mile Long Wall" (t 萬里長城, s 万里长城, Wànlǐ Chángchéng) came from Sima Qian's description of it in the Records, though he did not name the walls as such. The AD 493 Book of Song quotes the frontier general Tan Daoji referring to "the long wall of 10,000 miles", closer to the modern name, but the name rarely features in pre-modern times otherwise. The traditional Chinese mile (里, lǐ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile (540 m). However, this use of "ten-thousand" (wàn) is figurative in a similar manner to the Greek and English myriad and simply means "innumerable" or "immeasurable".
+				
+				<br><br>Because of the wall's association with the First Emperor's supposed tyranny, the Chinese dynasties after Qin usually avoided referring to their own additions to the wall by the name "Long Wall". Instead, various terms were used in medieval records, including "frontier(s)" (塞, Sài), "rampart(s)" (垣, Yuán), "barrier(s)" (障, Zhàng), "the outer fortresses" (外堡, Wàibǎo), and "the border wall(s)" (t 邊牆, s 边墙, Biānqiáng). Poetic and informal names for the wall included "the Purple Frontier" (紫塞, Zǐsài) and "the Earth Dragon" (t 土龍, s 土龙, Tǔlóng). Only during the Qing period did "Long Wall" become the catch-all term to refer to the many border walls regardless of their location or dynastic origin, equivalent to the English "Great Wall".
+				
+				<br><br>Sections of the wall in south Gobi Desert and Mongolian steppe are sometimes referred to as "Wall of Genghis Khan", even though Genghis Khan did not construct any walls or permanent defense lines himself.
+				
+				<br><br>The current English name evolved from accounts of "the Chinese wall" from early modern European travelers. By the nineteenth century, "the Great Wall of China" had become standard in English and French, although other European languages such as German continue to refer to it as "the Chinese wall".
+			</p>
+			
+			<img class="image" src="images/greatWallOfChina.jpg" alt="A photo of The Great Wall of China">
+		</div>
+		
+		<div class="parallel">
+			<div class="factBullets">
+			<h2>Quick Facts</h2>
+				<ul>
+					<li>The total length of the Great Wall is 21196.18 km.</li>
+					<li>There are 15 strategic passes from the East to the West.</li>
+					<li>It took over 2,000 years to construct the wall.</li>
+				</ul>
+			</div>
+			
+			<form class="formPage" name="form" autocomplete="on">
+				<div class="formSection">
+					<label>First Name:</label>
+					<input type="text" name="firstName" class="firstName" required="required">
+				</div><!--Closing div formSection tag-->
+					
+				<div class="formSection">
+					<label>Surname:</label>
+					<input type="text" name="surname" class="surname" required="required">
+				</div><!--Closing div formSection tag-->
+					
+				<div class="formSection">
+					<label>Email:</label>
+					<input type="email" name="email" class="email" required="required">
+				</div><!--Closing div formSection tag-->
+					
+				<div class="formSection">
+					<label>Date of Visit:</label>
+					<input type="date" name="dateOfVisit" class="dateOfVisit" required="required">
+				</div><!--Closing div formSection tag-->
+					
+				<div class="formSection">
+					<label>Your Experience</label>
+					<input type="text" name="experience" class="experience" required="required">
+				</div><!--Closing div formSection tag-->
+					
+				<div class="formSection">
+					<input type="submit" name="submit" class="submit">
+				</div><!--Closing div formSection tag-->
+			</form><!--Closing form tag-->
+		</div><!--Closing div parallel tag-->
+	</div><!--Closing div main tag-->
 </body>
 
 </html>
