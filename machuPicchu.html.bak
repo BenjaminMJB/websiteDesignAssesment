@@ -5,6 +5,7 @@
 	<script src="script.js"></script>
 	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
 	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 	<title>Machu Picchu</title>
 </head>
 
@@ -23,7 +24,7 @@
 
 	<div id="main">
 		<button class="openbtn" onclick="openNav()">☰</button>  
-		<h1 class="textCenter">Machu Picchu</h1>
+		<h1 class="heading">Machu Picchu</h1>
 		<div class="parallel">
 			<p class="paraBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis malesuada orci sed mattis. In aliquam, mi in pellentesque dictum, arcu arcu sagittis erat, et pharetra arcu sem sed sapien. Praesent varius vulputate dictum. Pellentesque iaculis efficitur mattis. Sed a ante interdum, ultricies sem ut, commodo mauris. Aliquam rhoncus odio vitae ex lobortis, fringilla commodo ex blandit. Etiam a mattis ante. Fusce ultricies risus eget scelerisque condimentum.
 			
@@ -78,6 +79,15 @@
 				</div><!--Closing div formSection tag-->
 			</form><!--Closing form tag-->
 		</div><!--Closing div parallel tag-->
+		<div class="botNavImg">
+			<a href="greatPyramidOfGiza.html"><img src="images/greatPyramidOfGiza.jpg"></a>
+			<a href="greatWallOfChina.html"><img src="images/greatWallOfChina.jpg"></a>
+			<a href="petra.html"><img src="images/petra.jpg"></a>
+			<a href="theColosseum.html"><img src="images/theColosseum.jpg"></a>
+			<a href="chichenItza.html"><img src="images/chichenItza.jpg"></a>
+			<a href="machuPicchu.html"><img src="images/machuPicchu.jpg"></a>
+			<a href="tajMahal.html"><img src="images/tajMahal.jpg"></a>
+		</div>
 	</div><!--Closing div main tag-->
 </body>
 

@@ -5,6 +5,7 @@ html {
 
 body{
 	background-color:#16b88f;
+	font-family: "Audiowide", sans-serif;
 }
 
 p{
@@ -16,13 +17,13 @@ p{
 	color:white;
 }
 
-
 .heading{
-	clear: both;
-	width:auto;
-	padding:10px 10px;
+	display: block;
+	margin:auto;
+	padding: 10px 20px;
 	background-color:#bee6dc;
 	text-align: center;
+	width: fit-content;
 }
 
 .formPage{
@@ -39,25 +40,6 @@ p{
 	justify-content: space-between;
 }
 
-.firstName{
-	
-}
-
-.surname{
-	
-}
-
-.email{
-	
-}
-
-.dateOfVisit{
-	
-}
-
-.experience{
-	
-}
 
 .submit{
 	display:block;
@@ -89,4 +71,18 @@ p{
 	
 border{
 	box-sizing: border-box;
+}
+
+.botNavImg{
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	width: 75%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.botNavImg img{
+	width:95%;
 }

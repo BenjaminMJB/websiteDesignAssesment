@@ -5,6 +5,7 @@
 	<script src="script.js"></script>
 	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
 	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<title>Great Pyramid of Giza</title>
 </head>
 
@@ -23,9 +24,10 @@
 
 	<div id="main">
 		<button class="openbtn" onclick="openNav()">☰</button>  
-		<h1 class="textCenter">Great Pyramid of Giza</h1>
+		<h1 class="heading">Great Pyramid of Giza</h1>
 		<div class="parallel">
-			<p class="paraBody">
+			<button onclick="textShowHide(greatPyramidOfGizaPara)">Show Text</button>
+			<p id="greatPyramidOfGizaPara" class="paraBody">
 				The Great Pyramid of Giza is the largest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. Built in the early 26th century BC during a period of around 27 years, the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact. It is the most famous monument of the Giza pyramid complex, in the Pyramid Fields of the Memphis and its Necropolis UNESCO World Heritage Site, in Giza, Egypt. It is at the most Northern end of the line of the 3 Pyramids of Giza.
 
 				<br><br>Initially standing at 146.6 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for more than 3,800 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the present 138.5 metres (454.4 ft). What is seen today is the underlying core structure. The base was measured to be about 230.3 metres (755.6 ft) square, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet), which includes an internal hillock.
@@ -85,6 +87,15 @@
 				</div><!--Closing div formSection tag-->
 			</form><!--Closing form tag-->
 		</div><!--Closing div parallel tag-->
+		<div class="botNavImg">
+			<a href="greatPyramidOfGiza.html"><img src="images/greatPyramidOfGiza.jpg"></a>
+			<a href="greatWallOfChina.html"><img src="images/greatWallOfChina.jpg"></a>
+			<a href="petra.html"><img src="images/petra.jpg"></a>
+			<a href="theColosseum.html"><img src="images/theColosseum.jpg"></a>
+			<a href="chichenItza.html"><img src="images/chichenItza.jpg"></a>
+			<a href="machuPicchu.html"><img src="images/machuPicchu.jpg"></a>
+			<a href="tajMahal.html"><img src="images/tajMahal.jpg"></a>
+		</div>
 	</div><!--Closing div main tag-->
 </body>
 
