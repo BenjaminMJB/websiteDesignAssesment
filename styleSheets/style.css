@@ -3,12 +3,12 @@ html {
 	width: 100%;
 }
 
-body{
+body {
 	background-color:#16b88f;
 	font-family: "Oswald", sans-serif;
 }
 
-p{
+p {
 	padding: 10px;
 	background-color:#bee6dc;
 }
@@ -17,67 +17,77 @@ h2 {
 	margin-top: 0px;
 }
 	
-#currentPage{
+#currentPage {
 	color:white;
 }
 
-.heading{
+.heading {
 	display: block;
 	margin:auto;
 	padding: 10px 20px;
 	background-color:#bee6dc;
 	text-align: center;
 	width: fit-content;
-}
+	border-radius: 8px;
+}	
 
-.formPage{
+.formPage {
 	padding: 10px;
 	background-color:#bee6dc;
 	margin-right:10%;
 	width: 30%;
+	border-radius: 8px;
 }
 
-.formSection{
+.formSection {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 }
 
 
-.submit{
-	display:block;
+.submit {
+	display: block;
 	margin: auto;
+	border-radius: 8px;
 }
 
-.paraBody{
+.paraBody {
 	width: 46%;
+	border-radius: 8px;
 }
 
-.image{
-	padding-top: 15px;
-	padding-bottom: 10px;
-	padding-right: 0px;
+.image {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 0px;
 	width: 46%;
+	border-radius: 8px;
 }
 
-.parallel{
+.parallel {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
 }
 
-.factBullets{
+.parallel img {
+	border-radius: 8px;
+}
+
+.factBullets {
 	padding: 10px;
 	background-color:#bee6dc;
 	margin-left:10%;
 	width: 30%;
+	border-radius: 8px;
 }
 	
-border{
+border {
 	box-sizing: border-box;
 }
 
-.botNavImg{
+.botNavImg {
 	display: block;
 	margin: auto;
 	margin-top: 20px;
@@ -87,17 +97,19 @@ border{
 	justify-content: space-between;
 }
 
-.botNavImg img{
+.botNavImg img {
 	width:95%;
+	border-radius: 8px;
 }
 
 .textShowHideButton {
 	margin-top: 15px;
 	width: 4%;
-	font-size: 10px;
+	font-size: 12px;
 	cursor: pointer;
 	background-color: #111;
 	color: white;
 	padding: 10px 15px;
 	border: none;
+	border-radius: 8px;
 }

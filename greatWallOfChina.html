@@ -11,7 +11,6 @@
 
 <body>
 	<div id="mySideBar" class="sideBar">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 		<a href="index.html">BackGround to the Project</a>
 		<a href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
 		<a id="currentPage" href="greatWallOfChina.html">Great Wall of China</a>
@@ -23,10 +22,11 @@
 	</div>
 
 	<div id="main">
-		<button class="openbtn" onclick="openNav()">☰</button>  
+		<button id="sideBarButton" class="openbtn" onclick="sideBarNav()">☰</button>
 		<h1 class="heading">Great Wall of China</h1>
 		<div class="parallel">
-			<p class="paraBody">
+			<button id="greatWallOfChinaButton" class="textShowHideButton" onclick="textShowHide('greatWallOfChinaPara', 'greatWallOfChinaImg', 'greatWallOfChinaButton')">Hide Text</button>
+			<p id="greatWallOfChinaPara" class="paraBody" style="visibility:hidden;">
 				The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally "ten thousand li wall") is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with selective stretches later joined by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains. Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).
 				
 				<br><br>Apart from defense, other purposes of the Great Wall have included border controls, allowing the imposition of duties on goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and emigration. Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of watchtowers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact that the path of the Great Wall also served as a transportation corridor.
@@ -40,12 +40,12 @@
 				<br><br>The longer Chinese name "Ten-Thousand Mile Long Wall" (t 萬里長城, s 万里长城, Wànlǐ Chángchéng) came from Sima Qian's description of it in the Records, though he did not name the walls as such. The AD 493 Book of Song quotes the frontier general Tan Daoji referring to "the long wall of 10,000 miles", closer to the modern name, but the name rarely features in pre-modern times otherwise. The traditional Chinese mile (里, lǐ) was an often irregular distance that was intended to show the length of a standard village and varied with terrain but was usually standardized at distances around a third of an English mile (540 m). However, this use of "ten-thousand" (wàn) is figurative in a similar manner to the Greek and English myriad and simply means "innumerable" or "immeasurable".
 			</p>
 			
-			<img class="image" src="images/greatWallOfChina.jpg" alt="A photo of The Great Wall of China">
+			<img id="greatWallOfChinaImg" class="image" src="images/greatWallOfChina.jpg" alt="A photo of The Great Wall of China">
 		</div>
 		
 		<div class="parallel">
 			<div class="factBullets">
-			<h2>Quick Facts</h2>
+				<h2>Quick Facts</h2>
 				<ul>
 					<li>The total length of the Great Wall is 21196.18 km.</li>
 					<li>There are 15 strategic passes from the East to the West.</li>
@@ -54,6 +54,7 @@
 			</div>
 			
 			<form class="formPage" name="form" autocomplete="on">
+				<h2>Form Title</h2>
 				<div class="formSection">
 					<label>First Name:</label>
 					<input type="text" name="firstName" class="firstName" required="required">

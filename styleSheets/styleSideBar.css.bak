@@ -39,6 +39,7 @@
 	color: white;
 	padding: 10px 15px;
 	border: none;
+	border-radius: 8px;
 }
 
 .openbtn:hover {
@@ -47,5 +48,5 @@
 
 #main {
 	transition: margin-left .5s;
-	padding: 16px;
+	padding: 15px;
 }

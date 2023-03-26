@@ -11,7 +11,6 @@
 
 <body>
 	<div id="mySideBar" class="sideBar">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 		<a href="index.html">BackGround to the Project</a>
 		<a id="currentPage" href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
 		<a href="greatWallOfChina.html">Great Wall of China</a>
@@ -23,11 +22,11 @@
 	</div>
 
 	<div id="main">
-		<button class="openbtn" onclick="openNav()">☰</button>  
+		<button id="sideBarButton" class="openbtn" onclick="sideBarNav()">☰</button>  
 		<h1 class="heading">Great Pyramid of Giza</h1>
 		<div class="parallel">
-			<button id="greatPyramidOfGizaButton" class="textShowHideButton" onclick="textShowHide()">Hide Text</button>
-			<p id="greatPyramidOfGizaPara" class="paraBody" style="visibility:visible;">
+			<button id="greatPyramidOfGizaButton" class="textShowHideButton" onclick="textShowHide('greatPyramidOfGizaPara', 'greatPyramidOfGizaImg', 'greatPyramidOfGizaButton')">Hide Text</button>
+			<p id="greatPyramidOfGizaPara" class="paraBody" style="visibility:hidden;">
 				The Great Pyramid of Giza is the largest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. Built in the early 26th century BC during a period of around 27 years, the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact. It is the most famous monument of the Giza pyramid complex, in the Pyramid Fields of the Memphis and its Necropolis UNESCO World Heritage Site, in Giza, Egypt. It is at the most Northern end of the line of the 3 Pyramids of Giza.
 
 				<br><br>Initially standing at 146.6 metres (481 feet), the Great Pyramid was the tallest man-made structure in the world for more than 3,800 years. Over time, most of the smooth white limestone casing was removed, which lowered the pyramid's height to the present 138.5 metres (454.4 ft). What is seen today is the underlying core structure. The base was measured to be about 230.3 metres (755.6 ft) square, giving a volume of roughly 2.6 million cubic metres (92 million cubic feet), which includes an internal hillock.

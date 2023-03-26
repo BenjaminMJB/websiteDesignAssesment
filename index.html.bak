@@ -5,7 +5,7 @@
 	<script src="script.js"></script>
 	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
 	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<title>Seven Wonders of the World</title>
 </head>
 
@@ -23,7 +23,7 @@
 	</div>
 
 	<div id="main">
-		<button class="openbtn" onclick="openNav()">☰</button>  
+		<button id="sideBarButton" class="openbtn" onclick="sideBarNav()">☰</button>  
 		<h1 class="heading" style="margin-bottom: 20px;">Seven Wonders of the World</h1>
 		<p style="width: 60%; margin: auto;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis malesuada orci sed mattis. In aliquam, mi in pellentesque dictum, arcu arcu sagittis erat, et pharetra arcu sem sed sapien. Praesent varius vulputate dictum. Pellentesque iaculis efficitur mattis. Sed a ante interdum, ultricies sem ut, commodo mauris. Aliquam rhoncus odio vitae ex lobortis, fringilla commodo ex blandit. Etiam a mattis ante. Fusce ultricies risus eget scelerisque condimentum.
 
