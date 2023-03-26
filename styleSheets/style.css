@@ -11,6 +11,7 @@ body {
 p {
 	padding: 10px;
 	background-color:#bee6dc;
+	border-radius: 8px;
 }
 
 h2 {
@@ -53,14 +54,16 @@ h2 {
 }
 
 .paraBody {
-	width: 46%;
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
 	border-radius: 8px;
 }
 
 .image {
 	margin-top: 15px;
 	margin-bottom: 15px;
-	margin-right: 0px;
+	margin-right: 27%;
 	width: 46%;
 	border-radius: 8px;
 }

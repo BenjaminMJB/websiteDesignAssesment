@@ -25,13 +25,15 @@ function textShowHide(para, img, but) {
 		x.style.visibility = "hidden";
 		x.style.width = "0px";
 		x.style.height = "0px";
-		y.style.marginRight = "25%";
+		x.style.fontSize = "0px";
+		y.style.marginRight = "27%";
 		z.innerHTML = "Show Text";
 	} 	
 	else {
 		x.style.visibility = "visible";
 		x.style.width = "46%";
 		x.style.height = "auto";
+		x.style.fontSize = "16px";
 		y.style.marginRight = "0px";
 		z.innerHTML = "Hide Text";
 	}
