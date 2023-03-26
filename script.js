@@ -10,25 +10,20 @@ function closeNav() {
 
 function textShowHide() {
 	var x = document.getElementById("greatPyramidOfGizaPara");
+	var y = document.getElementById("greatPyramidOfGizaImg");
+	var z = document.getElementById("greatPyramidOfGizaButton");
 	if (x.style.visibility === "visible") {
 		x.style.visibility = "hidden";
 		x.style.width = "0px";
 		x.style.height = "0px";
+		y.style.paddingRight = "25%";
+		z.innerHTML = "Show Text";
 	} 	
 	else {
 		x.style.visibility = "visible";
-		x.style.width = "49%";
+		x.style.width = "46%";
 		x.style.height = "auto";
-	}
-}
-
-function imgSizeChange() {
-	var x = document.getElementById("greatPyramidOfGizaImg");
-	var y = document.getElementById("greatPyramidOfGizaPara");
-	if (y.style.visibility === "hidden") {
-		x.style.width = "98%";
-	}
-	else {
-		x.style.width = "49%";
+		y.style.paddingRight = "0px";
+		z.innerHTML = "Hide Text";
 	}
 }

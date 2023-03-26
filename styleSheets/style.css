@@ -12,6 +12,10 @@ p{
 	padding: 10px;
 	background-color:#bee6dc;
 }
+
+h2 {
+	margin-top: 0px;
+}
 	
 #currentPage{
 	color:white;
@@ -27,9 +31,8 @@ p{
 }
 
 .formPage{
-	padding: 20px 10px 10px 10px;
+	padding: 10px;
 	background-color:#bee6dc;
-	margin-top: 20px;
 	margin-right:10%;
 	width: 30%;
 }
@@ -47,13 +50,14 @@ p{
 }
 
 .paraBody{
-	width:49%;
+	width: 46%;
 }
 
 .image{
 	padding-top: 15px;
 	padding-bottom: 10px;
-	width: 49%;
+	padding-right: 0px;
+	width: 46%;
 }
 
 .parallel{
@@ -63,7 +67,7 @@ p{
 }
 
 .factBullets{
-	padding: 0px 10px 10px 10px;
+	padding: 10px;
 	background-color:#bee6dc;
 	margin-left:10%;
 	width: 30%;
@@ -85,4 +89,15 @@ border{
 
 .botNavImg img{
 	width:95%;
+}
+
+.textShowHideButton {
+	margin-top: 15px;
+	width: 4%;
+	font-size: 10px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
 }
