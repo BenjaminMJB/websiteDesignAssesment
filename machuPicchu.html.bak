@@ -5,13 +5,12 @@
 	<script src="script.js"></script>
 	<link href="styleSheets/style.css" rel="stylesheet" type="text/css">
 	<link href="styleSheets/styleSideBar.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 	<title>Machu Picchu</title>
 </head>
 
 <body>
 	<div id="mySideBar" class="sideBar">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
 		<a href="index.html">BackGround to the Project</a>
 		<a href="greatPyramidOfGiza.html">Great Pyramid of Giza</a>
 		<a href="greatWallOfChina.html">Great Wall of China</a>
@@ -23,10 +22,12 @@
 	</div>
 
 	<div id="main">
-		<button class="openbtn" onclick="openNav()">☰</button>  
+		<button id="sideBarButton" class="openbtn" onclick="sideBarNav()">☰</button>
 		<h1 class="heading">Machu Picchu</h1>
 		<div class="parallel">
-			<p class="paraBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis malesuada orci sed mattis. In aliquam, mi in pellentesque dictum, arcu arcu sagittis erat, et pharetra arcu sem sed sapien. Praesent varius vulputate dictum. Pellentesque iaculis efficitur mattis. Sed a ante interdum, ultricies sem ut, commodo mauris. Aliquam rhoncus odio vitae ex lobortis, fringilla commodo ex blandit. Etiam a mattis ante. Fusce ultricies risus eget scelerisque condimentum.
+			<button id="machuPicchuButton" class="textShowHideButton" onclick="textShowHide('machuPicchuPara', 'machuPicchuImg', 'machuPicchuButton')">Hide Text</button>
+			<p id="machuPicchuPara" class="paraBody" style="visibility:hidden;">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sagittis malesuada orci sed mattis. In aliquam, mi in pellentesque dictum, arcu arcu sagittis erat, et pharetra arcu sem sed sapien. Praesent varius vulputate dictum. Pellentesque iaculis efficitur mattis. Sed a ante interdum, ultricies sem ut, commodo mauris. Aliquam rhoncus odio vitae ex lobortis, fringilla commodo ex blandit. Etiam a mattis ante. Fusce ultricies risus eget scelerisque condimentum.
 			
 			<br>Etiam at eros non ligula bibendum cursus sit amet a turpis. Aliquam sed cursus lorem. Nulla congue velit arcu, non iaculis sem mattis sed. Donec aliquet consectetur dictum. Duis pulvinar iaculis diam, vitae maximus quam convallis eget. Nunc nulla sapien, sagittis in lorem sit amet, consectetur ultricies est. Aenean sed dignissim lorem. Etiam sagittis, ligula et sollicitudin egestas, tellus turpis lobortis arcu, id scelerisque massa mi sit amet enim. Nunc dignissim massa finibus sem lacinia, et molestie turpis rhoncus. Aliquam varius turpis nec tempus elementum. Suspendisse tincidunt, urna id eleifend efficitur, purus ipsum lacinia lectus, ac feugiat mi enim ut orci. Sed ullamcorper vel nisl sed accumsan. Nunc quis faucibus neque. Curabitur eu bibendum augue, id vehicula augue. Vestibulum id fermentum odio. Duis iaculis nulla sed metus consequat, vel tristique sem aliquam.
 
@@ -36,11 +37,12 @@
 
 			<br>Nulla viverra mollis tellus a venenatis. Aliquam commodo eros et bibendum posuere. Sed sed cursus neque. Nulla finibus lectus nec massa sagittis consequat. Nam finibus, justo eu imperdiet posuere, nisl dolor facilisis libero, vel commodo diam urna eget purus. Praesent porttitor sem vitae tristique sollicitudin. Proin lobortis sollicitudin lectus quis fermentum. Fusce et viverra augue. Cras in enim ut dui porttitor sollicitudin id non nisi. Quisque eu mauris vitae erat dignissim sollicitudin a sit amet nulla. Maecenas bibendum, justo quis venenatis molestie, orci augue porta neque, tristique vulputate lorem magna id nibh. Vivamus non massa sapien.</p>
 			
-			<img class="image" src="images/machuPicchu.jpg" alt="A photo of The Machu Picchu">
+			<img id="machuPicchuImg" class="image" src="images/machuPicchu.jpg" alt="A photo of The Machu Picchu">
 		</div>
 		
 		<div class="parallel">
 			<div class="factBullets">
+				<h2>Quick Facts</h2>
 				<ul>
 					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent luctus nunc ac mauris lobortis, et.</li>
 					<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus turpis accumsan augue elementum ultricies. Suspendisse in.</li>
@@ -49,6 +51,7 @@
 			</div>
 			
 			<form class="formPage" name="form" autocomplete="on">
+				<h2>Form Title</h2>
 				<div class="formSection">
 					<label>First Name:</label>
 					<input type="text" name="firstName" class="firstName" required="required">

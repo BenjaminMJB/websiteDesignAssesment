@@ -26,7 +26,7 @@
 		<h1 class="heading">Great Wall of China</h1>
 		<div class="parallel">
 			<button id="greatWallOfChinaButton" class="textShowHideButton" onclick="textShowHide('greatWallOfChinaPara', 'greatWallOfChinaImg', 'greatWallOfChinaButton')">Hide Text</button>
-			<p id="greatWallOfChinaPara" class="paraBody" style="visibility:visible;">
+			<p id="greatWallOfChinaPara" class="paraBody" style="visibility:hidden;">
 				The Great Wall of China (traditional Chinese: 萬里長城; simplified Chinese: 万里长城; pinyin: Wànlǐ Chángchéng, literally "ten thousand li wall") is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. Several walls were built from as early as the 7th century BC, with selective stretches later joined by Qin Shi Huang (220–206 BC), the first emperor of China. Little of the Qin wall remains. Later on, many successive dynasties built and maintained multiple stretches of border walls. The best-known sections of the wall were built by the Ming dynasty (1368–1644).
 				
 				<br><br>Apart from defense, other purposes of the Great Wall have included border controls, allowing the imposition of duties on goods transported along the Silk Road, regulation or encouragement of trade and the control of immigration and emigration. Furthermore, the defensive characteristics of the Great Wall were enhanced by the construction of watchtowers, troop barracks, garrison stations, signaling capabilities through the means of smoke or fire, and the fact that the path of the Great Wall also served as a transportation corridor.

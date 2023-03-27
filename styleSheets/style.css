@@ -66,6 +66,7 @@ h2 {
 	margin-right: 27%;
 	width: 46%;
 	border-radius: 8px;
+	transition: 0.5s;
 }
 
 .parallel {
